@@ -1,0 +1,27 @@
+{
+  "name": "MyProject",
+  "version": "0.0.1",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "linq": "^3.0.7",
+    "node-linq": "0.0.5",
+    "promise": "^7.1.1",
+    "soap": "^0.18.0",
+    "swagger-express-mw": "^0.1.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}
