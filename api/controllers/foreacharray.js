@@ -61,7 +61,7 @@ var positions =  [
     },
     {
       symbol: "534",
-      Description: "Rare Job",
+      Description: "Rare Job",      
       change: 50,
       direction: "up",
       assetclass: "Fixed Income",
@@ -70,7 +70,7 @@ var positions =  [
 module.exports = {
   callme: callme
 };
-var ss = '';
+var ss = 'check';
 
 function callme(req, res)
 {
@@ -86,3 +86,4 @@ console.log(arr);
 
     res.json(hello);
 }
+
